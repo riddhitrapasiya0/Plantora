@@ -138,6 +138,3 @@ Plantora/
     ├── .env
     └── package.json
 ```
-
-## License
-ISC

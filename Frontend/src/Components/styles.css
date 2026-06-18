@@ -1,0 +1,187 @@
+.farmer-list {
+  display: flex;
+  gap: 85px;
+  /*Adds space between the cards*/
+  flex-wrap: wrap;
+  /* justify-content: flex-start; */
+  padding: 60px;
+}
+
+.body {
+  background-color: #d8f3dc;
+  /* Change this color to whatever you want */
+  /* margin: 0; */
+  font-family: Arial, sans-serif;
+  /* Optional: Set a default font */
+}
+
+.farmer-product-list {
+  display: flex;
+  gap: 80px;
+  /* Adds space between the cards */
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  padding: 0px;
+}
+
+
+/* navigation css */
+.navbar {
+  /* display: flex; */
+  /* justify-content: space-between;  Distribute the title and menu across the navbar */
+  align-items: center;
+  background-color: #1B4332;
+  /* Green for the navbar */
+  padding: 20px 40px;
+  color: white;
+}
+
+.navbar .navbar-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .navbar-menu {
+  /* display: flex; */
+  /* gap: 20px; */
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  font-size: 18px;
+}
+
+.navbar a:hover {
+  background-color: #45a049;
+  border-radius: 5px;
+}
+
+/* HomePage.css */
+.home-page {
+  /* Centering and Styling */
+  /* align-self: center; */
+  /* text-align: center; */
+  align-content: center;
+
+  /* align-items: center; */
+  /* justify-content: center; */
+  width: 800px;
+  height: 400px;
+  padding: 50px;
+  background-color: #40916c;
+  place-items: center;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  /* Animation */
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.home-page h1 {
+  font-size: 36px;
+  color: #333;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.home-page p {
+  font-size: 18px;
+  color: whitesmoke;
+  margin: 20px 0;
+  animation: fadeIn 2s ease-in-out 0.5s;
+  /* Delayed fade-in */
+}
+
+.home-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  animation: fadeInUp 1.5s ease-in-out 0.8s;
+  /* Delayed fade-in with upward motion */
+}
+
+@keyframes fadeInUp {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.home-links a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #0cae6b;
+  border-radius: 5px;
+  background-color: #1B4332;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.home-links a:hover {
+  background-color: #4CAF50;
+  color: white;
+  transform: scale(1.1);
+  /* Slight zoom on hover */
+}
+
+
+.links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+
+}
+
+
+.links button {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid #0cae6b;
+  border-radius: 5px;
+  background-color: #1B4332;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+
+}
+
+.links button:hover {
+  background-color: #4CAF50;
+  color: white;
+  transform: scale(1.1);
+  /* Slight zoom on hover */
+}

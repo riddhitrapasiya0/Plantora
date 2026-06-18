@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import { FarmerContext } from "./FarmerContext";
 import styled from "styled-components";
 import "bootstrap/dist/css/bootstrap.min.css";

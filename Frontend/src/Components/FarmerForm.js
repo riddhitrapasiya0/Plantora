@@ -37,7 +37,7 @@ export function FarmerForm() {
     }
 
     try {
-      const response = await api.post("/api/farmers", formData);
+      await api.post("/api/farmers", formData);
       setMessage("Farmer added successfully!");
       setFormData({
         name: "",

@@ -22,11 +22,11 @@
 
 
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { CropForm } from "./CropForm";
 import { FarmerForm } from "./FarmerForm";
 import { FarmersList } from "./FarmersList";
-import { FarmerCropsList } from "./FarmerCropsList";
+// import { FarmerCropsList } from "./FarmerCropsList";
 import './styles.css';
 
 export function ManageMenu() {
